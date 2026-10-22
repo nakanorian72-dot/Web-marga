@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#211027">
+  <meta name="description" content="KIZOKU TEAM — ruang komunitas, generasi, dan kebersamaan.">
+  <title>KIZOKU TEAM — Community</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="page-motion" aria-hidden="true"><span class="shooting-star star-a"></span><span class="shooting-star star-b"></span><span class="shooting-star star-c"></span><span class="orbit-star orbit-star-a">✦</span><span class="orbit-star orbit-star-b">✧</span><span class="orbit-star orbit-star-c">✦</span><span class="orbit-star orbit-star-d">✧</span><span class="orbit-star orbit-star-e">✦</span><span class="orbit-star orbit-star-f">✧</span><span class="orbit-star orbit-star-g">✦</span><span class="orbit-star orbit-star-h">✧</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="KIZOKU TEAM beranda">
+      <span class="brand-mark">KZ</span><span class="brand-name">KIZOKU <b>TEAM</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#perkenalan">👋 Perkenalan</a>
+      <a href="#generasi">🌟 Generasi</a>
+      <a href="#admin">🛡️ Admin</a>
+      <a href="#rules">📜 Rules</a>
+      <a class="nav-join" href="#gabung">Gabung <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section-wrap" id="perkenalan">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> COMMUNITY • KIZOKU TEAM</div>
+        <h1><span class="hero-title-kizoku">KIZOKU</span><br><span class="hero-title-team">TEAM</span></h1>
+        <p class="hero-description">Satu nama, banyak cerita. Tempat untuk membangun pertemanan yang bermakna, menjaga solidaritas yang setia, dan tumbuh bersama sebagai satu keluarga, bukan sekadar komunitas biasa.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#gabung">Masuk ke komunitas <span>↗</span></a>
+          <a class="button button-outline button-generations" href="#generasi">Lihat generasi <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span><span>BUILD CREATIVITY,CREATE A BRIGHT FUTURE.</span></div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Gambar utama KIZOKU TEAM">
+        <img class="hero-main-image" src="assets/imgutama/hero.jpg"
+             alt="Gambar utama KIZOKU TEAM"
+             onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+        <div class="hero-image-placeholder" hidden>
+          <span>GAMBAR UTAMA</span>
+          <small>Tambahkan gambar ke assets/imgutama/hero.jpg</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats section-wrap reveal" id="tentang">
+      <div class="stat"><strong class="count-up" data-count="131">0</strong><span>Anggota komunitas</span></div>
+      <div class="stat"><strong class="count-up" data-count="3">0</strong><span>Generasi</span></div>
+      <div class="stat"><strong class="count-up" data-count="4">0</strong><span>Admin</span></div>
+      <div class="stat stat-quote"><strong>∞</strong><span>Solidaritas tanpa batas</span></div>
+    </section>
+
+    <section class="section-wrap content-section" id="generasi">
+      <div class="section-heading reveal">
+        <div><div class="eyebrow">THE TIMELINE</div><h2>Generasi Berbeda.<br><span class="identity-gold">Satu Identitas.</span></h2></div>
+        <p>Setiap generasi punya kisahnya sendiri, tetapi semuanya menjadi bagian dari perjalanan KIZOKU TEAM.</p>
+      </div>
+      <div class="generation-tabs reveal" id="generationTabs" role="tablist" aria-label="Pilih generasi"></div>
+      <article class="generation-feature reveal" id="generationFeature">
+        <div class="generation-number"><span>GENERATION</span><strong>01</strong><i>✳</i></div>
+        <div class="generation-info"><div class="feature-kicker">THE BEGINNING</div><h3>Awal perjalanan</h3><p>Sebuah awal sederhana yang tumbuh menjadi cerita bersama.</p><div class="feature-meta"><span>◈ <b>20</b> anggota contoh</span><span>✳ KIZOKU TEAM</span></div></div>
+      </article>
+    </section>
+
+    <section class="admin-section content-section" id="admin">
+      <div class="section-wrap">
+        <div class="section-heading reveal">
+          <div><div class="eyebrow">THE FOUNDER OF THE CLAN</div><h2>LEADER OF <span class="leader-title-kizoku">KIZOKU</span> <span class="leader-title-team">TEAM.</span></h2></div>
+          <p>Kenali para admin yang membantu menjaga komunitas tetap aktif,kreatif,inovatif,dan nyaman untuk ditempati.</p>
+        </div>
+        <div class="admin-controls reveal">
+          <span class="scroll-hint"><span class="hint-dot"></span> SWIPE / GESER HORIZONTAL</span>
+          <div class="arrow-controls">
+            <button class="slider-arrow" id="adminPrev" aria-label="Admin sebelumnya">←</button>
+            <button class="slider-arrow" id="adminNext" aria-label="Admin berikutnya">→</button>
+          </div>
+        </div>
+        <div class="admin-slider reveal" id="adminSlider" aria-label="Daftar profil admin"></div>
+      </div>
+    </section>
+
+
+  </main>
+
+    <!-- Edit judul dan isi setiap aturan di bagian ini sesuai peraturan clan. -->
+    <section class="rules-section section-wrap" id="rules">
+      <div class="rules-heading">
+        <div>
+          <div class="eyebrow"><span class="pulse"></span> ✦ KIZOKU RULES</div>
+          <h2><span>RULES.</span></h2>
+        </div>
+        <p>Jaga rasa hormat, solidaritas, dan kenyamanan bersama. Semua anggota diharapkan mematuhi aturan berikut.</p>
+      </div>
+      <div class="rules-grid">
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>Dilarang menghina marga/sekte/circle dll</h3><p>Dilarang menghina atau merendahkan marga, sekte, circle, maupun kelompok lain.</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>Good Attitude</h3><p>Selalu menjaga sikap, tutur kata, dan menghormati seluruh anggota.</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>Wajib Intro</h3><p>Setiap anggota wajib memperkenalkan diri sesuai format intro yang berlaku.</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>No Send Vid Gore/18+</h3><p>Dilarang mengirim video gore atau konten 18+.</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>No Drama</h3><p>Hindari drama, provokasi, dan konflik yang mengganggu kenyamanan clan.</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>Tidak Menerima Sider</h3><p>Anggota diharapkan aktif dan tidak hanya menjadi silent reader (sider).</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>No Kutu Loncat</h3><p>Dilarang keluar-masuk clan atau circle secara berpindah-pindah tanpa alasan yang jelas.</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>No SWGC (Kecuali Admin)</h3><p>Dilarang mengirim status WhatsApp grup (SWGC), kecuali admin.</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>Wajib Pakai Hashtag Saat Up VT</h3><p>Setiap mengunggah VT wajib menggunakan hashtag clan yang telah ditentukan.</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>Wajib CN dan Kirim Bukti</h3><p>Wajib melakukan CN (change name) dan mengirimkan bukti jika sudah selesai.</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>No Share Link GC/Saluran Lain</h3><p>Dilarang membagikan tautan grup atau saluran lain tanpa izin.</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>Tidak Menerima Bot Lain</h3><p>Bot lain hanya diperbolehkan jika telah disetujui owner/admin dan benar-benar berguna.</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+        <article class="rule-card">
+          <span class="rule-number" aria-hidden="true"></span>
+          <div><h3>Wajib Ikut Setiap Collab</h3><p>Setiap ada collab wajib diikuti, kecuali sedang berhalangan seperti sibuk atau ada keperluan lain.</p></div>
+          <span class="rule-mark">↗</span>
+        </article>
+      </div>
+      <div class="rules-footnote"><span class="rules-footline"></span> ✧ ONE COMMUNITY. ONE GOAL.</div>
+    </section>
+
+    <section class="join-section section-wrap reveal" id="gabung">
+      <div class="join-card">
+        <div class="join-topline"><span class="pulse"></span> ✦ YOUR PLACE IS HERE</div>
+        <h2>One Alliance.<br><span>One Goal.</span></h2>
+        <p>Jadilah bagian dari perjalanan berikutnya. Kenalan, berbagi cerita, dan berkembang bersama KIZOKU TEAM.</p>
+        <a class="button button-light" id="joinButton" href="https://example.com" target="_blank" rel="noopener noreferrer">Gabung komunitas <span>↗</span></a>
+      </div>
+    </section>
+
+  <footer class="site-footer section-wrap">
+    <a class="brand" href="#home"><span class="brand-mark">KZ</span><span class="brand-name">KIZOKU <b>TEAM</b></span></a>
+    <span>BUILT WITH UNITY <i>✳</i></span>
+    <a href="#home" class="back-top">Kembali ke atas ↑</a>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
